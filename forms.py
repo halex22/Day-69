@@ -27,4 +27,4 @@ class LoginUser(FlaskForm):
 
 class CreateComment(FlaskForm):
     body = CKEditorField("Add comment", validators=[DataRequired()])
-    submit = SubmitField("Submit comment")
+    submit = SubmitField("Submit Comment")
