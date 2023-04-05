@@ -9,7 +9,7 @@ from flask_login import UserMixin, login_user, LoginManager, login_required, cur
 from forms import CreatePostForm, CreateUser, LoginUser, CreateComment
 from flask_gravatar import Gravatar
 import sqlalchemy as sa
-from sqlalchemy.orm import Mapped, mapped_column, Relationship
+from sqlalchemy.orm import Mapped, mapped_column
 from functools import wraps
 
 
